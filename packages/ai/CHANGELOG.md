@@ -1,5 +1,12 @@
 # ai
 
+## 5.0.241
+
+### Patch Changes
+
+- 9d0b84c: fix: reject `streamObject` result promises and report failed completion when the provider stream errors
+- e532644: Prevent automatic tool execution when a model call ends with an unsafe finish reason.
+
 ## 5.0.240
 
 ### Patch Changes
